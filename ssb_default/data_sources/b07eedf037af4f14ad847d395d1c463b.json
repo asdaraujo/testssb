@@ -1,0 +1,14 @@
+{
+  "id" : "b07eedf037af4f14ad847d395d1c463b",
+  "name" : "sr",
+  "type" : "catalog",
+  "properties" : {
+    "catalog_type" : "registry",
+    "kafka.provider.id" : "a53eba5ecb51483b96cc96edbb42cddd",
+    "registry.address" : "https://cdp.52.45.144.112.nip.io:7790/api/v1",
+    "table_filters" : [ {
+      "database_filter" : ".*",
+      "table_filter" : "iot.*"
+    } ]
+  }
+}

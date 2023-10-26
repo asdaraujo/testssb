@@ -1,0 +1,7 @@
+{
+  "name" : "TEST",
+  "language" : "JavaScript",
+  "output_type" : "STRING",
+  "input_types" : [ "STRING" ],
+  "code" : "function test(input){ \n   return \"Hello World 2\"; \n}\n\ntest($p0);  // this line must exist"
+}
