@@ -2,6 +2,7 @@
   "job_name" : "test",
   "api_endpoints" : [ {
     "endpoint" : "aaa",
+    "dynamic_parameters" : [ ],
     "code" : "SELECT \"x\", \"sensor_id\", \"sensor_ts\", \"is_healthy\", \"response\", \"sensor_0\", \"sensor_1\", \"sensor_2\", \"sensor_3\", \"sensor_4\", \"sensor_5\", \"sensor_6\", \"sensor_7\", \"sensor_8\", \"sensor_9\", \"sensor_10\", \"sensor_11\", \"event_time\" FROM mv_ffffffff_test",
     "builder_data" : {
       "rules" : {
@@ -160,16 +161,16 @@
     "name" : "test",
     "retention" : 300,
     "min_row_retention_count" : 0,
-    "recreate" : false,
+    "recreate" : true,
     "key_column_name" : "x",
     "column_indices_disabled" : false,
     "indexed_columns" : [ ],
     "not_indexed_columns" : [ ],
     "api_key" : "dc2397a2-0cce-4ec3-a780-a980ac2b5332",
-    "ignore_nulls" : false,
+    "ignore_nulls" : true,
     "require_restart" : false,
     "batch_size" : 0,
-    "enabled" : false
+    "enabled" : true
   },
   "runtime_config" : {
     "execution_mode" : "SESSION",

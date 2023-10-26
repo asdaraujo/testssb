@@ -9,5 +9,6 @@
     "password" : null,
     "mechanism" : "KERBEROS",
     "ssl.truststore.location" : "/opt/cloudera/security/jks/truststore.jks"
-  }
+  },
+  "custom_truststore" : false
 }

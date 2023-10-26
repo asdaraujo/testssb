@@ -10,5 +10,6 @@
       "database_filter" : ".*",
       "table_filter" : "iot.*"
     } ]
-  }
+  },
+  "custom_truststore" : false
 }
