@@ -1,0 +1,12 @@
+{
+  "id" : "91e482af996146079487617c44eee93a",
+  "name" : "sr",
+  "type" : "catalog",
+  "properties" : {
+    "table_filters" : [ ],
+    "catalog_type" : "registry",
+    "kafka.provider.id" : "c6b5ff568e6439c3ab7a89a0e6f61f52",
+    "registry.address" : "https://cdp.52.45.144.112.nip.io:7790/api/v1",
+    "registry.ssl.enabled" : true
+  }
+}
